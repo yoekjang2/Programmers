@@ -11,7 +11,7 @@ def solution(code):
                 ret += i
             elif mode == 1 and index%2 !=0:
                 ret += i
-    if ret == "":
+    if not ret:
         ret = "EMPTY"
     return ret
                 
